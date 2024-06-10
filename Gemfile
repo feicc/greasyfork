@@ -50,7 +50,7 @@ group :development do
   gem 'capistrano-passenger'
   gem 'capistrano-bundler', '~> 1.2'
   gem 'capistrano-rvm'
-  gem 'capistrano3-delayed-job', '~> 1.0'
+  gem 'capistrano3-delayed-job', '~> 1.7', '>= 1.7.4'
 end
 
 group :profile do
